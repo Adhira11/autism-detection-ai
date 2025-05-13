@@ -1,1 +1,11 @@
+gaze:
+  eye_landmarks: [33, 133, 362, 263]
+  threshold: 0.5
 
+motion:
+  window_size: 30
+  freq_threshold: 10
+
+social:
+  name_triggers: ["baby", "sweetie", "jack"]
+  response_window: 2.0
